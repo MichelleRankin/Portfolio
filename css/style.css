@@ -372,10 +372,12 @@ body {
 .goatInfo{
     padding: 1em;
 }
-.book_desc{
+.bookInfo{
     padding: 1em;
 }
-
+.unitInfo{
+  padding: 1em;
+}
 .me-container{
     display: flex;
     flex-direction: row;
@@ -404,6 +406,21 @@ body {
     justify-content: left;
 }
 .goat{
+     display: flex;
+    flex-direction: row;
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 2vw;
+    padding: 3%;
+    justify-content: left;
+}
+
+.unit{
+  
      display: flex;
     flex-direction: row;
     background-color: var(--box-color);
@@ -615,6 +632,21 @@ button:focus {
     justify-content: left;
     
 }
+  
+ #me-box .unit{
+    
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 6vw;
+    padding: 7%;
+    display: grid;
+    justify-content: left;
+    
+  }
 .link_section{
     padding-top: 1em;
     display: flex;
@@ -630,6 +662,9 @@ button:focus {
 .goatInfo{
     padding: 1em;
 }
+.unitInfo{
+  padding: 1em;
+  }
 }
 
 
