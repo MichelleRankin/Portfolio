@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		#myImg {
+			border-radius: 5px;
+			cursor: pointer;
+			transition: 0.3s;
+			padding: .25em;
+		}
+
+		#myImg2 {
+			border-radius: 5px;
+			cursor: pointer;
+			transition: 0.3s;
+			padding: .25em;
+		}
+
+		#myImg:hover {
+			opacity: 0.7;
+		}
+
+		#myImg2:hover {
+			opacity: 0.7;
+		}
+
+		/* The Modal (background) */
+		.model {
+			display: none;
+			/* Hidden by default */
+			position: fixed;
+			/* Stay in place */
+			z-index: 1;
+			/* Sit on top */
+			padding-top: 100px;
+			/* Location of the box */
+			left: 0;
+			top: 0;
+			width: 100%;
+			/* Full width */
+			height: 100%;
+			/* Full height */
+			overflow: auto;
+			/* Enable scroll if needed */
+			background-color: rgb(0, 0, 0);
+			/* Fallback color */
+			background-color: rgba(0, 0, 0, 0.9);
+			/* Black w/ opacity */
+		}
+
+		/* Modal Content (image) */
+		.model-content {
+			display: block;
+			width: 80%;
+			max-width: 700px;
+		}
+
+		/* Caption of Modal Image */
+		#caption {
+			margin: auto;
+			display: block;
+			width: 80%;
+			max-width: 700px;
+			text-align: center;
+			color: #ccc;
+			padding: 10px 0;
+			height: 150px;
+		}
+
+		/* Add Animation */
+		.model-content,
+		#caption {
+			-webkit-animation-name: zoom;
+			-webkit-animation-duration: 0.6s;
+			animation-name: zoom;
+			animation-duration: 0.6s;
+		}
+
+		@-webkit-keyframes zoom {
+			from {
+				-webkit-transform: scale(0)
+			}
+			to {
+				-webkit-transform: scale(1)
+			}
+		}
+
+		@keyframes zoom {
+			from {
+				transform: scale(0)
+			}
+			to {
+				transform: scale(1)
+			}
+		}
+
+		/* The Close Button */
+		.close {
+			position: absolute;
+			top: 15px;
+			right: 35px;
+			color: #f1f1f1;
+			font-size: 40px;
+			font-weight: bold;
+			transition: 0.3s;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: #bbb;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		/* 100% Image Width on Smaller Screens */
+		@media only screen and (max-width: 700px) {
+			.model-content {
+				width: 100%;
+			}
+
+		}
+	</style>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+	</style>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Michelle's Projects</title>
+</head>
+
+<body>
+	<div class="menu-wrap">
+		<input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="project.html">My Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="showcase3">
+    <div class="container showcase-inner">
+            <h1 class="pg3">My Projects</h1>
+
+        </div>
+  </header>
+  <div id="me-box">
+    <div class="me-container">
+        <img id="myImg" src="css/images/old_books.png" alt="Book Store" style="width:100%;max-width:300px">
+        <div class="book_info">
+            <p class="book_desc">This was a personal project created with python, to better help me understand how to create functions. The abilities of this project include buying new and old books and returning the total amount of money you spent. In short, a type if addition and calculator program.</p>
+            <div class="link_section">
+                <a href="https://github.com/MichelleRankin/book_store"><button class="sheen">Click Here for the Github files</button></a>
+            </div>
+            </p>
+        </div>
+        
+<!-- The Modal -->
+        <div id="myModel" class="model">
+            <span class="close">&times;</span>
+            <img class="model-content" id="img01">
+            <div id="caption"></div>
+        </div>         
+    </div>
+    <div class="SFC">
+            <img id="myImg2" src="css/images/sunflower_website.png" alt="Sunflower Charity" style="width:100%;max-width:300px">
+            <div class="SFInfo">
+                <p class="SF_desc">This project was assigned to the students at BaseCamp, the requirements were to create a fake charity and make a website for them. This was completed using HTML and CSS.</p>
+                <div class="link_section">
+                    <a href="https://github.com/MichelleRankin/Charity"><button class="sheen SFlink">Click Here for the Github files</button></a>
+                    <a href="https://michellerankin.github.io/Charity/"><button class="sheen2 SFlink">Click Here for the Website</button></a>
+                </div>
+            </div>
+    </div>
+        
+<!-- The Modal -->
+            <div id="myModel" class="model">
+                <span class="close">&times;</span>
+                <img class="model-content" id="img01">
+            <div id="caption"></div>
+            </div>      
+
+    
+    <div class="nate">
+            <img id="myImg3" src="css/images/nate_goodbye.png" alt="Nate's Website" style="width:100%;max-width:300px">
+            <div class="nateInfo">
+                <p class="nate_desc">This project was a personal project created for the leaving of our Senior Technical Director, this website was made as an entertaining joke for him to enjoy whenever he thought about his old job. 
+                </p>
+                <div class="link_section">
+                    <a href="https://github.com/MichelleRankin/Nate-s-go-away"><button class="sheen SFlink">Click Here for the Github files</button></a>
+                    <a href="https://michellerankin.github.io/Nate-s-go-away/"><button class="sheen2 SFlink">Click Here for the Website</button></a>
+                </div>
+            </div>
+    </div>
+        
+<!-- The Modal -->
+            <div id="myModel" class="model">
+                <span class="close">&times;</span>
+                <img class="model-content" id="img01">
+            <div id="caption"></div>
+            </div>  
+
+    
+    <div class="goat">
+            <img id="myImg4" src="css/images/Fred_Astaire.png" alt="G.0.A.T Website" style="width:100%;max-width:300px">
+            <div class="goatInfo">
+                <p class="goat_desc">This is the module 1 project for the HTML course at BaseCamp. This was a project where you had to make a GOAT website, which is "Greatest Of All Time." For my project I chose Fred Astaire, and this is how it turned out.
+                </p>
+                <div class="link_section">
+                    <a href="https://github.com/MichelleRankin/TheGOAT"><button class="sheen SFlink">Click Here for the Github files</button></a>
+                    <a href="https://michellerankin.github.io/TheGOAT/ "><button class="sheen2 SFlink">Click Here for the Website</button></a>
+                </div>
+            </div>
+    </div>
+        
+<!-- The Modal -->
+            <div id="myModel" class="model">
+                <span class="close">&times;</span>
+                <img class="model-content" id="img01">
+            <div id="caption"></div>
+            </div>  
+
+
+<div class="unit">
+            <img id="myImg5" src="css/images/Unit_Screen.png" alt="Unit Project" style="width:100%;max-width:300px">
+            <div class="unitInfo">
+                <p class="unit_desc">This is a Unit project Dylan and I did, down below is a link to his portfolio, it is a mix between a character creation, and a battle with a leveling system. Mainly created with Python this project was really fun to make. 
+                </p>
+                <div class="link_section">
+                    <a href="https://github.com/MichelleRankin/TheGOAT"><button class="sheen SFlink">Click Here for Dylan's Portfolio</button></a>
+                    <a href="https://replit.com/@FlapperFlounder/Unit-2-proj-1?v=1"><button class="sheen2 SFlink">Click Here for the Project</button></a>
+                </div>
+            </div>
+    </div>
+        
+<!-- The Modal -->
+            <div id="myModel" class="model">
+                <span class="close">&times;</span>
+                <img class="model-content" id="img01">
+            <div id="caption"></div>
+            </div>  
+
+
+
+
+  
+</div>
+
+<script>// Get the modal
+var model = document.getElementById("myModel");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modelImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  model.style.display = "block";
+  modelImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  model.style.display = "none";
+}
+
+var model = document.getElementById("myModel");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modelImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  model.style.display = "block";
+  modelImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  model.style.display = "none";
+}
+
+
+var model = document.getElementById("myModel");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg3");
+var modelImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  model.style.display = "block";
+  modelImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  model.style.display = "none";
+}
+
+var model = document.getElementById("myModel");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg4");
+var modelImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  model.style.display = "block";
+  modelImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  model.style.display = "none";
+}
+
+var model = document.getElementById("myModel");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg5");
+var modelImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  model.style.display = "block";
+  modelImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  model.style.display = "none";
+}
+</script>
+</body>
+</html>
