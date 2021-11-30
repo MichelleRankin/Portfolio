@@ -436,8 +436,8 @@ body {
     padding: 3%;
     justify-content: left;
 }
-.pokemon{
- display: flex;
+.pokedex{
+    display: flex;
     flex-direction: row;
     background-color: var(--box-color);
     margin-top: 2%;
@@ -664,7 +664,7 @@ button:focus {
     justify-content: left;
     
   }
-  #me-box .poke{
+  #me-box .pokedex{
   background-color: var(--box-color);
     margin-top: 2%;
     margin-left: 5%;
@@ -695,7 +695,7 @@ button:focus {
   padding: 1em;
   }
 }
-.pokeInfo{
+.pokemonInfo{
   padding: 1em;
 }
 
