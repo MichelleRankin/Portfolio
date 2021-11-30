@@ -633,6 +633,7 @@ button:focus {
     
 }
   
+  
  #me-box .unit{
     
     background-color: var(--box-color);
@@ -646,6 +647,18 @@ button:focus {
     display: grid;
     justify-content: left;
     
+  }
+  #me-box .poke{
+  background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 6vw;
+    padding: 7%;
+    display: grid;
+    justify-content: left;
   }
 .link_section{
     padding-top: 1em;
@@ -666,7 +679,9 @@ button:focus {
   padding: 1em;
   }
 }
-
+.pokeInfo{
+  padding: 1em;
+}
 
 
 
