@@ -378,6 +378,9 @@ body {
 .unitInfo{
   padding: 1em;
 }
+.pokemonInfo{
+  padding: 1em;
+}
 .me-container{
     display: flex;
     flex-direction: row;
@@ -422,6 +425,19 @@ body {
 .unit{
   
      display: flex;
+    flex-direction: row;
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 2vw;
+    padding: 3%;
+    justify-content: left;
+}
+.pokemon{
+ display: flex;
     flex-direction: row;
     background-color: var(--box-color);
     margin-top: 2%;
