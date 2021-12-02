@@ -477,6 +477,10 @@ body {
     
 
 }
+#me-box .me-container .about-text{
+    color: #fff;
+    font-size: 2vw;
+}
 #me-box{
   background-color: var(--primary-color);
   padding: 5% ;
