@@ -385,7 +385,7 @@ body {
   padding: 1em;
 }
 .countInfo{
-  padding: 1em;
+  padding: 1em;}
 .me-container{
     display: flex;
     flex-direction: row;
@@ -762,7 +762,7 @@ button:focus {
   padding: 1em;
 }
 .countInfo{
-  padding: 1em;
+  padding: 1em;}
 
 
 
