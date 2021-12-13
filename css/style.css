@@ -428,8 +428,7 @@ body {
 }
 
 .unit{
-  
-     display: flex;
+    display: flex;
     flex-direction: row;
     background-color: var(--box-color);
     margin-top: 2%;
@@ -467,7 +466,7 @@ body {
     padding: 3%;
     justify-content: left;
 }
-  .counter{
+.counter{
   display: flex;
     flex-direction: row;
     background-color: var(--box-color);
@@ -721,7 +720,8 @@ button:focus {
     font-size: 6vw;
     padding: 7%;
     display: grid;
-    justify-content: left;}
+    justify-content: left;
+  }
   
   
   
@@ -735,7 +735,8 @@ button:focus {
     font-size: 6vw;
     padding: 7%;
     display: grid;
-    justify-content: left;}
+    justify-content: left;
+  }
 .link_section{
     padding-top: 1em;
     display: flex;
@@ -754,7 +755,7 @@ button:focus {
 .unitInfo{
   padding: 1em;
   }
-}
+
 .pokemonInfo{
   padding: 1em;
 }
@@ -762,8 +763,9 @@ button:focus {
   padding: 1em;
 }
 .countInfo{
-  padding: 1em;}
-
+  padding: 1em;
+  }
+}
 
 
 .sheen {
