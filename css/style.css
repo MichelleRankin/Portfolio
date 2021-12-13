@@ -384,6 +384,8 @@ body {
 .chatInfo{
   padding: 1em;
 }
+.countInfo{
+  padding: 1em;
 .me-container{
     display: flex;
     flex-direction: row;
@@ -453,6 +455,19 @@ body {
     justify-content: left;
 }
 .chatroom{
+  display: flex;
+    flex-direction: row;
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 2vw;
+    padding: 3%;
+    justify-content: left;
+}
+  .counter{
   display: flex;
     flex-direction: row;
     background-color: var(--box-color);
@@ -707,6 +722,20 @@ button:focus {
     padding: 7%;
     display: grid;
     justify-content: left;}
+  
+  
+  
+    #me-box .counter{
+  background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 6vw;
+    padding: 7%;
+    display: grid;
+    justify-content: left;}
 .link_section{
     padding-top: 1em;
     display: flex;
@@ -732,6 +761,8 @@ button:focus {
 .chatInfo{
   padding: 1em;
 }
+.countInfo{
+  padding: 1em;
 
 
 
