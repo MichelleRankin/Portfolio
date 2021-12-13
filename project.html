@@ -298,6 +298,25 @@
             </div> 
 	
 	
+	
+	 <div class="counter">
+            <img id="myImg8" src="css/images/counter.png" alt="Javascript Counter" style="width:100%;max-width:300px">
+            <div class="countInfo">
+		    <h1>Counter</h1>
+                <p class="Count_info">While Learning JavaScript I decided to try my luck with a counter, here is the CSS covered Javascript Counter, It can go up and down, but never below zero.</p>
+                <div class="link_section">
+		    <a href="https://michellerankin.github.io/jsCounter/"><button class="sheen SFlink">Click Here for the Counter</button></a>
+                </div>
+            </div>
+    </div>
+        
+<!-- The Modal -->
+            <div id="myModel" class="model">
+                <span class="close">&times;</span>
+                <img class="model-content" id="img01">
+            <div id="caption"></div>
+            </div> 
+	
 </div>
 
 <script>// Get the modal
@@ -422,6 +441,23 @@ span.onclick = function() {
   model.style.display = "none";
 }
 	var img = document.getElementById("myImg7");
+var modelImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  model.style.display = "block";
+  modelImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  model.style.display = "none";}
+	
+	
+var img = document.getElementById("myImg8");
 var modelImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
