@@ -362,6 +362,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: inherit;
 }
 .nateInfo{
     padding: 1em;
@@ -379,7 +380,7 @@ body {
   padding: 1em;
 }
 .pokemonInfo{
-  padding: 1em;
+  padding: 0.5em;
 }
 .chatInfo{
   padding: 1em;
@@ -449,8 +450,8 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
-    padding: 3%;
+    font-size: 1.5vw;
+    padding: 2%;
     justify-content: left;
 }
 .chatroom{
