@@ -899,10 +899,10 @@ button {
   border-radius: 0px;
   color: #fff;
   font-size: 1.3vw;
-  padding: 10px;
+  padding: 3px;
   margin: 0;
   min-width: 0.5em;
-  max-width: 13vw;
+  max-width: 16vw;
 }
 
 button:active {
