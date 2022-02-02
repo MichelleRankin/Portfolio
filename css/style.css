@@ -802,6 +802,8 @@ button:focus {
 /*     font-size: 6vw;
     padding: 7%; */
     display: block;
+	font-size: medium;
+
     justify-content: left;
     
 }
@@ -814,6 +816,8 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
+	font-size: medium;
+
     display: block;
     justify-content: left;
     
@@ -828,6 +832,8 @@ button:focus {
 /*     font-size: 6vw;
     padding: 7%; */
     display: block;
+	font-size: medium;
+
     justify-content: left;
     
 }
@@ -844,6 +850,8 @@ button:focus {
 /*     font-size: 6vw;
     padding: 7%; */
     display: block;
+	 font-size: medium;
+
     justify-content: left;
     
   }
@@ -869,6 +877,8 @@ button:focus {
 /*     font-size: 6vw;
     padding: 7%; */
     display: block;
+	  font-size: medium;
+
     justify-content: left;
   }
   
@@ -884,6 +894,8 @@ button:focus {
 /*     font-size: 6vw;
     padding: 7%; */
     display: block;
+	    font-size: medium;
+
     justify-content: left;
   }
      #me-box .minecraft{
@@ -896,6 +908,8 @@ button:focus {
 /*     font-size: 6vw;
     padding: 7%; */
     display: block;
+	     font-size: medium;
+
     justify-content: left;
   }
 .link_section{
