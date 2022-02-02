@@ -800,7 +800,7 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
-    display: grid;
+    display: block;
     justify-content: left;
     
 }
@@ -813,7 +813,7 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
-    display: grid;
+    display: block;
     justify-content: left;
     
 }
@@ -826,7 +826,7 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
-    display: grid;
+    display: block;
     justify-content: left;
     
 }
@@ -842,7 +842,7 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
-    display: grid;
+    display: block;
     justify-content: left;
     
   }
@@ -855,7 +855,7 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
-    display: grid;
+    display: block;
     justify-content: left;
   }
   #me-box .chatroom{
@@ -867,7 +867,7 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
-    display: grid;
+    display: block;
     justify-content: left;
   }
   
@@ -882,7 +882,7 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
-    display: grid;
+    display: block;
     justify-content: left;
   }
      #me-box .minecraft{
@@ -894,13 +894,13 @@ button:focus {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
-    display: grid;
+    display: block;
     justify-content: left;
   }
 .link_section{
     padding-top: 1em;
     display: flex;
-    flex-direction: row;
+    flex-direction: grid;
     justify-content: space-evenly;
 }
 .nateInfo{
