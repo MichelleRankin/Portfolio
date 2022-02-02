@@ -399,7 +399,7 @@ body {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     font-size: 1.4rem;
-    padding: 3%; 
+    padding: 1.5%; 
     justify-content: left;
 }
 
@@ -461,7 +461,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -474,7 +474,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -488,7 +488,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -501,7 +501,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -514,7 +514,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -527,7 +527,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -540,7 +540,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -727,7 +727,7 @@ body {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: 2%;
     display: -ms-inline-grid;
     justify-content: left;
@@ -801,7 +801,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     justify-content: left;
     
 }
@@ -812,7 +812,7 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     display: block;
     justify-content: left;
     
@@ -825,7 +825,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     justify-content: left;
     
 }
@@ -840,7 +840,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     justify-content: left;
     
   }
@@ -852,7 +852,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     justify-content: left;
   }
   #me-box .chatroom{
@@ -877,7 +877,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     justify-content: left;
   }
   #me-box .minecraft{
@@ -888,7 +888,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     justify-content: left;
   }
 	
@@ -909,7 +909,7 @@ button:focus {
 }
 .unitInfo{
   padding: 1em;
-  }
+}
 
 .pokemonInfo{
   padding: 1em;
@@ -919,10 +919,10 @@ button:focus {
 }
 .countInfo{
   padding: 1em;
-  }
+}
  .mineInfo{
   padding: 1em;
-  }
+}
 }
 
 
