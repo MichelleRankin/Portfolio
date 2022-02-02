@@ -342,7 +342,51 @@ body {
   transition: color 0.4s ease;
   
 }
-
+#myImg{
+  width:100%;
+  max-width:40%;
+  height:25%;
+}
+#myImg2{
+  width:100%;
+  max-width:50%;
+  height:25%;
+}
+#myImg3{
+  width:100%;
+  max-width:50%;
+  height:25%;
+}
+#myImg4{
+  width:100%;
+  max-width:50%;
+  height:25%;
+}
+#myImg5{
+  width:100%;
+  max-width:40%;
+  height:25%;
+}
+#myImg6{
+  width:100%;
+  max-width:45%;
+  height:25%;
+}
+#myImg7{
+  width:100%;
+  max-width:50%;
+  height:25%;
+}
+#myImg8{
+  width:100%;
+  max-width:50%;
+  height:25%;
+}
+#myImg9{
+  width:100%;
+  max-width:50%;
+  height:25%;
+}
 .SFC{
     display: flex;
     flex-direction: row;
