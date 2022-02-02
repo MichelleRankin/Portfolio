@@ -120,7 +120,7 @@ body {
   margin: auto;
 }
 .showcase h1 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .showcase p {
@@ -128,7 +128,7 @@ body {
   padding: 10px;
 }
 .showcase2 .pg2{
-    font-size: 6vw;
+    font-size: 5vw;
 }
 .showcase2 p {
   font-size: 4vw;
@@ -396,7 +396,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 3%; 
     justify-content: left;
 }
@@ -445,7 +445,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 25px;
+    font-size: 1.4rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -459,7 +459,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -472,7 +472,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -486,7 +486,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -499,7 +499,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -512,7 +512,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -525,7 +525,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -538,7 +538,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 1.5%;
     justify-content: left;
 }
@@ -549,14 +549,14 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     padding: 3%;
     
 
 }
 #me-box .me-container .about-title{
     color: #fff;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 #me-box{
   background-color: var(--primary-color);
@@ -712,7 +712,7 @@ body {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
+    font-size: 1.4rem;
     padding: 7%;
     
 
@@ -725,8 +725,8 @@ body {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+    font-size: 1.4rem;
+    padding: 2%;
     display: -ms-inline-grid;
     justify-content: left;
 }
@@ -762,14 +762,14 @@ body {
     background-color: #C3073F;
 }
 .showcase2 .pg2{
-    font-size: 9vw;
+    font-size: 1.4rem;
 }
 .showcase h1{
-    font-size: 10vw;
+    font-size: 3rem;
 
 }
 .showcase p{
-    font-size: 6vw;
+    font-size: 1.4rem;
 }
 
 button {
@@ -781,7 +781,7 @@ button {
   padding: 3px;
   margin: 0;
   min-width: 0.5vw;
-  max-width: 16vw;
+  max-width: 16rem;
 }
 
 button:active {
@@ -799,7 +799,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: medium;
+    font-size: 1.4rem;
     justify-content: left;
     
 }
@@ -810,7 +810,7 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: medium;
+    font-size: 1.4rem;
     display: block;
     justify-content: left;
     
@@ -823,7 +823,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: medium;
+    font-size: 1.4rem;
     justify-content: left;
     
 }
@@ -838,7 +838,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: medium;
+    font-size: 1.4rem;
     justify-content: left;
     
   }
@@ -850,7 +850,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: medium;
+    font-size: 1.4rem;
     justify-content: left;
   }
   #me-box .chatroom{
@@ -861,7 +861,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: medium;
+    font-size: 1.4rem;
     justify-content: left;
   }
   
@@ -875,7 +875,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: medium;
+    font-size: 1.4rem;
     justify-content: left;
   }
   #me-box .minecraft{
@@ -886,7 +886,7 @@ button:focus {
     box-shadow: 10px 10px 40px black;
     color: #fff;
     display: block;
-    font-size: medium;
+    font-size: 1.4rem;
     justify-content: left;
   }
 	
@@ -975,11 +975,11 @@ button {
   background: var(--primary-color);
   border-radius: 0px;
   color: #fff;
-  font-size: 1.3vw;
+  font-size: 1.3rem;
   padding: 3px;
   margin: 0;
   min-width: 0.5em;
-  max-width: 16vw;
+  max-width: 16rem;
 }
 
 button:active {
