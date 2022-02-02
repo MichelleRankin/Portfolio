@@ -352,8 +352,8 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
-    padding: 3%;
+/*     font-size: 2vw;*/
+    padding: 3%; 
     justify-content: left;
 }
 
@@ -401,7 +401,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
+/*     font-size: 2vw; */
     padding: 3%;
     justify-content: left;
 }
@@ -415,7 +415,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
+/*     font-size: 2vw; */
     padding: 3%;
     justify-content: left;
 }
@@ -428,7 +428,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
+/*     font-size: 2vw; */
     padding: 3%;
     justify-content: left;
 }
@@ -442,7 +442,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
+/*     font-size: 2vw; */
     padding: 3%;
     justify-content: left;
 }
@@ -455,7 +455,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 1.5vw;
+/*     font-size: 1.5vw; */
     padding: 2%;
     justify-content: left;
 }
@@ -468,7 +468,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
+/*     font-size: 2vw; */
     padding: 3%;
     justify-content: left;
 }
@@ -481,7 +481,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
+/*     font-size: 2vw; */
     padding: 3%;
     justify-content: left;
 }
@@ -494,7 +494,7 @@ body {
     margin-right: 10%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 2vw;
+/*     font-size: 2vw; */
     padding: 3%;
     justify-content: left;
 }
@@ -609,8 +609,8 @@ body {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display:grid;
     justify-content: left;
 }
@@ -649,10 +649,11 @@ button {
   background: var(--primary-color);
   border-radius: 0px;
   color: #fff;
-  font-size: 10vw;
-  padding: 10px;
+  font-size: 2vw;
+/*   padding: 10px; */
   margin: 0;
-  min-width: 7em;
+  min-width: 0.5vw;
+  max-width: 12vw;
 }
 
 button:active {
@@ -669,8 +670,8 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display: grid;
     justify-content: left;
     
@@ -682,8 +683,8 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display: grid;
     justify-content: left;
     
@@ -695,8 +696,8 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display: grid;
     justify-content: left;
     
@@ -711,8 +712,8 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display: grid;
     justify-content: left;
     
@@ -724,8 +725,8 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display: grid;
     justify-content: left;
   }
@@ -736,8 +737,8 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display: grid;
     justify-content: left;
   }
@@ -751,8 +752,8 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display: grid;
     justify-content: left;
   }
@@ -763,8 +764,8 @@ button:focus {
     margin-right: 5%;
     box-shadow: 10px 10px 40px black;
     color: #fff;
-    font-size: 6vw;
-    padding: 7%;
+/*     font-size: 6vw;
+    padding: 7%; */
     display: grid;
     justify-content: left;
   }
@@ -854,9 +855,10 @@ button {
   border-radius: 0px;
   color: #fff;
   font-size: 2vw;
-  padding: 10px;
+/*   padding: 10px; */
   margin: 0;
-  min-width: 7em;
+  min-width: 0.5em;
+  max-width: 13vw;
 }
 
 button:active {
