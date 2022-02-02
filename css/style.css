@@ -740,6 +740,7 @@ body {
     color: #fff;
 /*     font-size: 6vw;
     padding: 7%; */
+	font-size: medium;
     display:grid;
     justify-content: left;
 }
