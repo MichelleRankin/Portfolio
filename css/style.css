@@ -627,6 +627,7 @@ body {
 			cursor: pointer;
 			transition: 0.3s;
 			padding: .25em;
+	  height: fit-content;
 			max-width: 100%;
 			max-height: 100%;
 		}
