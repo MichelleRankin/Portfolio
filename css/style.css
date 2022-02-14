@@ -599,13 +599,13 @@ body {
 } */
 
 .icons{
-    margin: 3px 3vw;
-    position: absolute;
+    margin: 3px;
+    position: fixed;
     width: 100%;
     top: 65vh;
     display: inherit;
     flex-direction: row;
-    justify-content:center;
+    justify-content:left;
     
 }
 
