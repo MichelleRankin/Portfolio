@@ -389,6 +389,16 @@ body {
   max-width:50%;
   height:25%;
 }
+#myImg10{
+  width:100%;
+  max-width:50%;
+  height:25%;
+}
+#myImg11{
+  width:100%;
+  max-width:50%;
+  height:25%;
+}
 .SFC{
     display: flex;
     flex-direction: row;
@@ -435,6 +445,9 @@ body {
   padding: 1em;
 }
 .mineInfo{
+  padding: 1em;
+}
+.playerInfo{
   padding: 1em;
 }
 
@@ -533,6 +546,19 @@ body {
 }
 .minecraft{
   display: flex;
+    flex-direction: row;
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1.5%;
+    justify-content: left;
+}
+.mp3Player{
+	display: flex;
     flex-direction: row;
     background-color: var(--box-color);
     margin-top: 2%;
@@ -691,6 +717,22 @@ body {
 			max-height: 100%;
 		}
 		#myImg9 {
+			border-radius: 5px;
+			cursor: pointer;
+			transition: 0.3s;
+			padding: .25em;
+			max-width: 100%;
+			max-height: 100%;
+		}
+		#myImg10 {
+			border-radius: 5px;
+			cursor: pointer;
+			transition: 0.3s;
+			padding: .25em;
+			max-width: 100%;
+			max-height: 100%;
+		}
+		#myImg11 {
 			border-radius: 5px;
 			cursor: pointer;
 			transition: 0.3s;
@@ -891,6 +933,17 @@ button:focus {
     font-size: 1.3rem;
     justify-content: left;
   }
+  #me-box .mp3Player{
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    display: block;
+    font-size: 1.3rem;
+    justify-content: left;
+	}
 	
 .link_section{
     padding-top: 1em;
@@ -921,6 +974,9 @@ button:focus {
   padding: 1em;
 }
  .mineInfo{
+  padding: 1em;
+}
+.playerInfo{
   padding: 1em;
 }
 }
