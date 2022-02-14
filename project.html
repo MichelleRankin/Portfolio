@@ -416,6 +416,27 @@
             <div id="caption"></div>
             </div> 
 	
+	
+	<div class="mp3Player">
+            <img id="myImg10" src="css/images/player.png" alt="Music Player">
+	    <img id="myImg11" src="css/images/list.png" alt="Music List">
+
+            <div class="playerInfo">
+		    <h1>Mp3 Player(Java, PostgresSQL, Android Studios)</h1>
+                <p class="Player_info">With the learning of Java and PostgresSQL I decided to try my luck at creating a music player. The goal of this project was to test my skills in a new Source Code Editor, as well as create an app without ads that I could use on my own time. </p>
+                <div class="link_section">
+		    <a href="https://github.com/MichelleRankin/Unit-7-My-Music-Application/blob/main/README.md"><button class="sheen SFlink">Click Here for the Files</button></a>
+                </div>
+            </div>
+    </div>
+        
+<!-- The Modal -->
+            <div id="myModel" class="model">
+                <span class="close">&times;</span>
+                <img class="model-content" id="img01">
+            <div id="caption"></div>
+            </div> 
+	
 </div>
 
 <script>// Get the modal
@@ -573,6 +594,38 @@ span.onclick = function() {
   model.style.display = "none";}
 	
 var img = document.getElementById("myImg9");
+var modelImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  model.style.display = "block";
+  modelImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  model.style.display = "none";}
+	
+var img = document.getElementById("myImg10");
+var modelImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  model.style.display = "block";
+  modelImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  model.style.display = "none";}
+	
+var img = document.getElementById("myImg11");
 var modelImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
