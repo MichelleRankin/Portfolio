@@ -478,6 +478,19 @@ body {
     justify-content: left;
 }
 
+.PythonBook{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 1.5%;
+    justify-content: left;
+}
 .nate{
      display: flex;
     flex-direction: row;
@@ -849,6 +862,18 @@ button:focus {
   outline: none;
 }
 #me-box .SFC{
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    display: block;
+    font-size: 1.3rem;
+    justify-content: left;
+    
+}
+#me-box .PythonBook{
     background-color: var(--box-color);
     margin-top: 2%;
     margin-left: 5%;
