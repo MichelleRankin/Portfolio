@@ -453,7 +453,7 @@ body {
 
 .me-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: var(--box-color);
     margin-top: 2%;
     margin-left: 10%;
