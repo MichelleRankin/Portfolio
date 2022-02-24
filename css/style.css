@@ -55,7 +55,7 @@ body {
 }
 .showcase:before {
   content: '';
-  background-image: url("images/redback.jpeg");
+  background-image: url("images/fireworks.gif");
   background-attachment: fixed;
   background-size: cover;
   position: fixed;
