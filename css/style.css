@@ -67,7 +67,7 @@ body {
 }
 .showcase2:before {
   content: '';
-  background-image: url("images/tree.gif");
+  background-image: url("images/firework.gif");
   background-attachment: fixed;
   background-size: cover;
   position: fixed;
