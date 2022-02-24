@@ -412,6 +412,19 @@ body {
     padding: 1.5%; 
     justify-content: left;
 }
+.PythonBook{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--box-color);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 40px black;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 1.5%; 
+    justify-content: left;
+}
 
 .link_section{
     padding-top: 1em;
