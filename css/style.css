@@ -55,7 +55,7 @@ body {
 }
 .showcase:before {
   content: '';
-  background-image: url("images/hole.gif");
+  background-image: url("images/firework.gif");
   background-attachment: fixed;
   background-size: cover;
   position: fixed;
@@ -67,7 +67,7 @@ body {
 }
 .showcase2:before {
   content: '';
-  background-image: url("images/hole.gif");
+  background-image: url("images/firework.gif");
   background-attachment: fixed;
   background-size: cover;
   position: fixed;
@@ -79,7 +79,7 @@ body {
 }
 .showcase3:before {
   content: '';
-  background-image: url("images/hole.gif");
+  background-image: url("images/firework.gif");
   background-attachment: fixed;
   background-size: cover;
   position: fixed;
