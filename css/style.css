@@ -480,7 +480,7 @@ body {
 
 .PythonBook{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: var(--box-color);
     margin-top: 2%;
     margin-left: 10%;
