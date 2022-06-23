@@ -399,6 +399,11 @@ body {
   max-width:25%;
   height:25%;
 }
+#myImg12{
+  width:45%;
+  max-width:25%;
+  height:25%;
+}
 .SFC{
     display: flex;
     flex-direction: row;
